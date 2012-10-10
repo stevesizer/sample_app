@@ -13,6 +13,10 @@ group :development, :test do
 	gem 'guard-rspec', '0.5.5'
 end
 
+group :test do
+	gem 'factory_girl_rails', '1.4.0'
+end
+
 gem 'annotate', '2.5.0', group: :development
 
 # Gems used only for assets and not required
